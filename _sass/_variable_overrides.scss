@@ -1,0 +1,8 @@
+// increase base font
+//$font-size-base: 18px;
+
+// import bs variables to allow bootstrap variables to be assigned after this point
+@import "bootstrap/variables";
+
+// make table borders same as hr
+$table-border-color: $gray-lighter;
