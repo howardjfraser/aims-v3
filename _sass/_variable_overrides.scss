@@ -1,8 +1,20 @@
 // increase base font
 //$font-size-base: 18px;
 
+$f4f: rgba(104, 162, 46, 1);
+
+$brand-primary: #0275d8;
+
+$font-size-base:          16px;
+
+
 // import bs variables to allow bootstrap variables to be assigned after this point
 @import "bootstrap/variables";
 
+
+$hr-border-color: $gray-lighter;
+
 // make table borders same as hr
 $table-border-color: $gray-lighter;
+
+$body-color: $gray;
