@@ -5881,10 +5881,12 @@ header svg {
   position: absolute;
   top: 18px; }
 
+h1.supplier {
+  cursor: pointer; }
+
 @media (max-width: 767px) {
   h1.supplier {
-    margin-top: 0;
-    cursor: pointer; }
+    margin-top: 0; }
 
   h1.title {
     margin-bottom: 6px; } }

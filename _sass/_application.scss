@@ -52,11 +52,15 @@ header {
   }
 }
 
+h1.supplier {
+  cursor: pointer;
+}
+
+
 // narrow
 @media (max-width: 767px) {
   h1.supplier {
     margin-top: 0;
-    cursor: pointer;
   }
   h1.title {
     margin-bottom: 6px;
