@@ -5851,3 +5851,10 @@ body {
   background-color: #373a3c; }
   #supplierPicker a, #supplierPicker a:hover {
     color: #eceeef; }
+
+@media (max-width: 767px) {
+  h1.supplier {
+    margin-top: 0; }
+
+  h1.title {
+    margin-bottom: 6px; } }

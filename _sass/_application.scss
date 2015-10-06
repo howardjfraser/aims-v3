@@ -42,3 +42,13 @@ body {
     color: #eceeef;
   }
 }
+
+// narrow
+@media (max-width: 767px) {
+  h1.supplier {
+    margin-top: 0;
+  }
+  h1.title {
+    margin-bottom: 6px;
+  }
+}
