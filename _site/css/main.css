@@ -2407,10 +2407,10 @@ th {
     padding: 8px;
     line-height: 1.42857;
     vertical-align: top;
-    border-top: 1px solid #eeeeee; }
+    border-top: 1px solid #eee; }
   .table > thead > tr > th {
     vertical-align: bottom;
-    border-bottom: 2px solid #eeeeee; }
+    border-bottom: 2px solid #eee; }
   .table > caption + thead > tr:first-child > th,
   .table > caption + thead > tr:first-child > td,
   .table > colgroup + thead > tr:first-child > th,
@@ -2419,7 +2419,7 @@ th {
   .table > thead:first-child > tr:first-child > td {
     border-top: 0; }
   .table > tbody + tbody {
-    border-top: 2px solid #eeeeee; }
+    border-top: 2px solid #eee; }
   .table .table {
     background-color: #fff; }
 
@@ -2432,14 +2432,14 @@ th {
   padding: 5px; }
 
 .table-bordered {
-  border: 1px solid #eeeeee; }
+  border: 1px solid #eee; }
   .table-bordered > thead > tr > th,
   .table-bordered > thead > tr > td,
   .table-bordered > tbody > tr > th,
   .table-bordered > tbody > tr > td,
   .table-bordered > tfoot > tr > th,
   .table-bordered > tfoot > tr > td {
-    border: 1px solid #eeeeee; }
+    border: 1px solid #eee; }
   .table-bordered > thead > tr > th,
   .table-bordered > thead > tr > td {
     border-bottom-width: 2px; }
@@ -2550,7 +2550,7 @@ table th[class*="col-"] {
       margin-bottom: 16.5px;
       overflow-y: hidden;
       -ms-overflow-style: -ms-autohiding-scrollbar;
-      border: 1px solid #eeeeee; }
+      border: 1px solid #eee; }
       .table-responsive > .table {
         margin-bottom: 0; }
         .table-responsive > .table > thead > tr > th,
@@ -3707,7 +3707,7 @@ tbody.collapse.in {
     max-width: none; }
 
 .nav-tabs {
-  border-bottom: 1px solid #ddd; }
+  border-bottom: 1px solid #eee; }
   .nav-tabs > li {
     float: left;
     margin-bottom: -1px; }
@@ -3717,7 +3717,7 @@ tbody.collapse.in {
       border: 1px solid transparent;
       border-radius: 4px 4px 0 0; }
       .nav-tabs > li > a:hover {
-        border-color: #eeeeee #eeeeee #ddd; }
+        border-color: #eeeeee #eeeeee #eee; }
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
       color: #555555;
       background-color: #fff;
@@ -4647,7 +4647,7 @@ a.thumbnail.active {
   padding: 10px 15px;
   margin-bottom: -1px;
   background-color: #fff;
-  border: 1px solid #ddd; }
+  border: 1px solid #eee; }
   .list-group-item:first-child {
     border-top-right-radius: 4px;
     border-top-left-radius: 4px; }
@@ -4657,12 +4657,12 @@ a.thumbnail.active {
     border-bottom-left-radius: 4px; }
 
 a.list-group-item {
-  color: #555; }
+  color: #0275d8; }
   a.list-group-item .list-group-item-heading {
     color: #333; }
   a.list-group-item:hover, a.list-group-item:focus {
     text-decoration: none;
-    color: #555;
+    color: #014c8c;
     background-color: #f5f5f5; }
 
 .list-group-item.disabled, .list-group-item.disabled:hover, .list-group-item.disabled:focus {
@@ -4676,8 +4676,8 @@ a.list-group-item {
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
   color: #fff;
-  background-color: #0275d8;
-  border-color: #0275d8; }
+  background-color: #555555;
+  border-color: #555555; }
   .list-group-item.active .list-group-item-heading,
   .list-group-item.active .list-group-item-heading > small,
   .list-group-item.active .list-group-item-heading > .small, .list-group-item.active:hover .list-group-item-heading,
@@ -4897,7 +4897,7 @@ a.list-group-item-danger {
 .panel > .panel-body + .table-responsive,
 .panel > .table + .panel-body,
 .panel > .table-responsive + .panel-body {
-  border-top: 1px solid #eeeeee; }
+  border-top: 1px solid #eee; }
 .panel > .table > tbody:first-child > tr:first-child th,
 .panel > .table > tbody:first-child > tr:first-child td {
   border-top: 0; }
@@ -5857,15 +5857,15 @@ table td {
   vertical-align: middle !important; }
 
 footer {
-  background-image: linear-gradient(to right, #68a22e, #0275d8);
+  background-image: linear-gradient(to right, #45741c, #0267bf);
   padding-bottom: 96px; }
   footer a, footer a:hover {
     color: #eee; }
 
 #supplierPicker {
-  background-color: #373a3c; }
+  background-color: #333; }
   #supplierPicker a, #supplierPicker a:hover {
-    color: #eceeef; }
+    color: #eee; }
 
 header .navbar {
   margin-bottom: 0; }
@@ -5877,11 +5877,11 @@ h1.supplier {
   cursor: pointer; }
 
 .list-inline li {
-  margin-right: 2rem;
+  margin-right: 2.5rem;
   margin-bottom: 1rem; }
 .list-inline .active {
   padding: 0.5em 1em;
-  background-color: #0275d8;
+  background-color: #555555;
   border-radius: 4px; }
   .list-inline .active a, .list-inline .active a:hover {
     color: #fff; }

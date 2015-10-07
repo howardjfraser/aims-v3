@@ -1,20 +1,29 @@
 // increase base font
 //$font-size-base: 18px;
 
-$f4f: rgba(104, 162, 46, 1);
+$f4f: rgba(57, 95, 23, 1);
 
 $brand-primary: #0275d8;
 
-$font-size-base:          16px;
+$font-size-base: 16px;
 
+// make all thin lines lighter
+$table-border-color: #eee;
+$nav-tabs-border-color: #eee;
+$list-group-border: #eee;
 
 // import bs variables to allow bootstrap variables to be assigned after this point
 @import "bootstrap/variables";
 
+// list group changes
 
-$hr-border-color: $gray-lighter;
+// use dark gray for selected (otherwise looks like a button)
+$list-group-active-bg: $gray;
+$list-group-active-border: $gray;
 
-// make table borders same as hr
-$table-border-color: $gray-lighter;
+// make list group links look like links
+$list-group-link-color:         $link-color;
+$list-group-link-hover-color:   $link-hover-color;
+
 
 $body-color: $gray;

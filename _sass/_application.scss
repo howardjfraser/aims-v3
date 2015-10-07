@@ -14,7 +14,8 @@ table td {
 }
 
 footer {
-  background-image: linear-gradient(to right, $f4f, $brand-primary);
+  background-image: linear-gradient(to right, lighten($f4f, 5%), darken($brand-primary, 5%));
+//  background-color: $f4f;
   padding-bottom: 96px;
   a, a:hover {
     color: #eee;
@@ -22,9 +23,9 @@ footer {
 }
 
 #supplierPicker {
-  background-color: #373a3c;
+  background-color: #333;
   a, a:hover {
-    color: #eceeef;
+    color: #eee;
   }
 }
 
@@ -44,12 +45,12 @@ h1.supplier {
 
 .list-inline {
   li {
-    margin-right: 2rem;
+    margin-right: 2.5rem;
     margin-bottom: 1rem;
   }
   .active {
     padding: 0.5em 1em;
-    background-color: $brand-primary;
+    background-color: $gray;
     border-radius: 4px;
 
     a, a:hover {
