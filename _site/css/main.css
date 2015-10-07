@@ -5856,19 +5856,15 @@ table th,
 table td {
   vertical-align: middle !important; }
 
-footer a, footer a:hover {
-  color: #eee; }
+footer {
+  background-image: linear-gradient(to right, #68a22e, #0275d8);
+  padding-bottom: 96px; }
+  footer a, footer a:hover {
+    color: #eee; }
 
 nav.top-nav .nav-link {
   padding-right: 2rem;
   line-height: 2em; }
-
-header,
-section#main {
-  background-color: white; }
-
-body {
-  background-image: linear-gradient(to right, #68a22e, #0275d8); }
 
 #supplierPicker {
   background-color: #373a3c; }
