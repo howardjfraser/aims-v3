@@ -4676,8 +4676,8 @@ a.list-group-item {
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
   color: #fff;
-  background-color: #555555;
-  border-color: #555555; }
+  background-color: #777;
+  border-color: #777; }
   .list-group-item.active .list-group-item-heading,
   .list-group-item.active .list-group-item-heading > small,
   .list-group-item.active .list-group-item-heading > .small, .list-group-item.active:hover .list-group-item-heading,
@@ -5881,7 +5881,7 @@ h1.supplier {
   margin-bottom: 1rem; }
 .list-inline .active {
   padding: 0.5em 1em;
-  background-color: #555555;
+  background-color: #777;
   border-radius: 4px; }
   .list-inline .active a, .list-inline .active a:hover {
     color: #fff; }
