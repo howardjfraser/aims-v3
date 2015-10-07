@@ -42,10 +42,19 @@ h1.supplier {
   cursor: pointer;
 }
 
-nav#top {
+.list-inline {
   li {
     margin-right: 2rem;
     margin-bottom: 1rem;
+  }
+  .active {
+    padding: 0.5em 1em;
+    background-color: $brand-primary;
+    border-radius: 4px;
+
+    a, a:hover {
+      color: #fff;
+    }
   }
 }
 

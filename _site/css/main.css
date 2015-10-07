@@ -5876,9 +5876,15 @@ header svg {
 h1.supplier {
   cursor: pointer; }
 
-nav#top li {
+.list-inline li {
   margin-right: 2rem;
   margin-bottom: 1rem; }
+.list-inline .active {
+  padding: 0.5em 1em;
+  background-color: #0275d8;
+  border-radius: 4px; }
+  .list-inline .active a, .list-inline .active a:hover {
+    color: #fff; }
 
 @media (max-width: 767px) {
   h1.supplier {
