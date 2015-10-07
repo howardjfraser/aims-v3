@@ -21,13 +21,6 @@ footer {
   }
 }
 
-nav.top-nav {
-  .nav-link {
-    padding-right: 2rem;
-    line-height: 2em;
-  }
-}
-
 #supplierPicker {
   background-color: #373a3c;
   a, a:hover {
@@ -49,6 +42,12 @@ h1.supplier {
   cursor: pointer;
 }
 
+nav#top {
+  li {
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+  }
+}
 
 // narrow
 @media (max-width: 767px) {
