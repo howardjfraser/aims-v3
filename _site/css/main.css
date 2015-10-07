@@ -5852,26 +5852,25 @@ button.close {
 .strong {
   font-weight: 500; }
 
+.inverse a, .inverse a:hover {
+  color: #eee; }
+
 table th,
 table td {
   vertical-align: middle !important; }
-
-footer {
-  background-image: linear-gradient(to right, #45741c, #0267bf);
-  padding-bottom: 96px; }
-  footer a, footer a:hover {
-    color: #eee; }
-
-#supplierPicker {
-  background-color: #333; }
-  #supplierPicker a, #supplierPicker a:hover {
-    color: #eee; }
 
 header .navbar {
   margin-bottom: 0; }
 header svg {
   position: absolute;
   top: 18px; }
+
+footer {
+  background-image: linear-gradient(to right, #45741c, #0267bf);
+  padding-bottom: 96px; }
+
+div#supplierPicker {
+  background-color: #333; }
 
 h1.supplier {
   cursor: pointer; }
