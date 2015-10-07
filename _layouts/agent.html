@@ -5,9 +5,23 @@
 
   <body>
 
-    {% include header-agent.html %}
+    {% include agent-supplier-picker.html %}
 
-    {{ content }}
+    <div class="container">
+
+      {% include agent-header.html %}
+
+      {% include agent-nav-top.html %}
+
+      <div class="row">
+
+        {% include agent-nav-side.html %}
+
+        {% include main.html %}
+
+      </div>
+
+    </div>
 
     {% include footer.html %}
 
